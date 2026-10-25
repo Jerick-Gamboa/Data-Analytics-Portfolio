@@ -70,6 +70,9 @@ Identified missing `PropertyAddress` values and used matching `ParcelID` records
 
 Updated missing values when a reliable matching address was available.
 
+#### Handling Missing Value
+![Nashville-Housing-Data-Cleaning](images/HandlingMissingValue.png)
+
 **SQL techniques:** `JOIN`, table aliases, `UPDATE`
 
 ### 5. Address Splitting
