@@ -139,7 +139,8 @@ This project strengthened my understanding of SQL data manipulation and data qua
 
 - `README.md` — Project documentation
 - `Nashville_Housing_Cleaning.sql` — SQL queries used throughout the cleaning process
-
+- `Nashville Housing.csv` — Raw data from kaggle
+  
 ## Author
 
 **Jerick Gamboa**
