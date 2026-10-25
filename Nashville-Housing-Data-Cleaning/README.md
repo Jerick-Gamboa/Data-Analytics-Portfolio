@@ -38,6 +38,7 @@ Created a separate table named `cleandata_nashville` using the original `nashvil
 
 Reviewed the dataset's records, column names, and data types to understand its structure and identify potential data quality issues.
 
+![Nashville-Housing-Data-Cleaning](images/Data_Exploration.pmg)
 **SQL techniques:** `SELECT`, `DESCRIBE`, `DISTINCT`, `GROUP BY`, `COUNT()`
 
 ### 3. Standardization
