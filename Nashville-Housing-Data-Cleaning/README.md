@@ -50,6 +50,18 @@ Converted the `SaleDate` column into the MySQL `DATE` data type and checked the 
 #### LandUse Standardization
 ![Nashville-Housing-Data-Cleaning](images/LandUse.png)
 
+#### PropertyAddress Standardization
+![Nashville-Housing-Data-Cleaning](images/PropertyAddress-Standardizing.png)
+
+#### SaleDate Standardization
+![Nashville-Housing-Data-Cleaning](images/SaleDate-Standardizing.png)
+
+#### SoldAsVacant Standardization
+![Nashville-Housing-Data-Cleaning](images/SoldAsVacant-Standardizing.png)
+
+#### OwnerAddress Standardization
+![Nashville-Housing-Data-Cleaning](images/OwnerAddress-Standardizing.png)
+
 **SQL techniques:** `TRIM()`, `REPLACE()`, `STR_TO_DATE()`, `ALTER TABLE`, `UPDATE`
 
 ### 4. Handling Missing Values
