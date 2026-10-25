@@ -89,6 +89,8 @@ Separated `OwnerAddress` into `OwnerSplitAddress`, `OwnerSplitCity`, and `OwnerS
 
 ### 6. Duplicate Identification
 
+#### Checking Duplicates
+![Nashville-Housing-Data-Cleaning](images/CheckDuplicate.png)
 Used a Common Table Expression (CTE) and the `ROW_NUMBER()` window function to identify potential duplicate records based on selected property and sale attributes.
 
 The duplicate-checking query returned no additional records under the selected criteria, so no duplicate deletion was performed.
@@ -97,6 +99,8 @@ The duplicate-checking query returned no additional records under the selected c
 
 ### 7. Removing Unnecessary Columns
 
+#### Removing Columns
+![Nashville-Housing-Data-Cleaning](images/RemoveUnusedColumn.png)
 After creating and reviewing the split address columns, removed the original `PropertyAddress` and `OwnerAddress` columns from the cleaned table.
 
 **SQL technique:** `ALTER TABLE ... DROP COLUMN`
