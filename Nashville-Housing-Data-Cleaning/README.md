@@ -47,6 +47,9 @@ Standardized inconsistent `LandUse` values and removed unnecessary leading, trai
 
 Converted the `SaleDate` column into the MySQL `DATE` data type and checked the `SoldAsVacant` column for inconsistent values.
 
+#### LandUse Standardization
+![Nashville-Housing-Data-Cleaning](images/LandUse.png)
+
 **SQL techniques:** `TRIM()`, `REPLACE()`, `STR_TO_DATE()`, `ALTER TABLE`, `UPDATE`
 
 ### 4. Handling Missing Values
