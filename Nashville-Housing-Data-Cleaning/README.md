@@ -100,16 +100,20 @@ The duplicate-checking query returned no additional records under the selected c
 ### 7. Removing Unnecessary Columns
 
 #### Removing Columns
-![Nashville-Housing-Data-Cleaning](images/RemoveUnusedColumn.png)
+![Nashville-Housing-Data-Cleaning](images/DropeUnusedColumn.png)
 After creating and reviewing the split address columns, removed the original `PropertyAddress` and `OwnerAddress` columns from the cleaned table.
 
 **SQL technique:** `ALTER TABLE ... DROP COLUMN`
 
 ### 8. Final Validation
 
+![Nashville-Housing-Data-Cleaning](images/Validate.png)
 Reviewed the cleaned dataset, checked the `UniqueID` count, and verified the standardized `SoldAsVacant` values.
 
 Additional validation is important to confirm that the cleaning process preserved the required information and did not introduce errors.
+
+# CLEANED NASHVILLE DATA
+![Nashville-Housing-Data-Cleaning](images/CleanedData.png)
 
 ## SQL Skills Demonstrated
 
