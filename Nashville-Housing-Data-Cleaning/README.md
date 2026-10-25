@@ -77,8 +77,12 @@ Updated missing values when a reliable matching address was available.
 
 ### 5. Address Splitting
 
+#### PropertyAddress Splitting
+![Nashville-Housing-Data-Cleaning](images/SplitPropertyAddress.png)
 Separated `PropertyAddress` into `PropertyStreet` and `PropertyCity`.
 
+#### OwnerAddress Splitting
+![Nashville-Housing-Data-Cleaning](images/SplitOwnerAddress.png)
 Separated `OwnerAddress` into `OwnerSplitAddress`, `OwnerSplitCity`, and `OwnerSplitState`.
 
 **SQL techniques:** `SUBSTRING_INDEX()`, `TRIM()`, `ALTER TABLE`, `UPDATE`
