@@ -16,8 +16,8 @@ I'm a fresh Bachelor of Science in Information Technology graduate interested in
 
 ## 📊 Featured Projects
 
-### Superstore Sales Analysis
-https://github.com/Jerick-Gamboa/Data-Analytics-Portfolio/tree/main/Nashville-Housing-Data-Cleaning
+### [Superstore Sales Analysis](https://github.com/Jerick-Gamboa/Data-Analytics-Portfolio/tree/main/Nashville-Housing-Data-Cleaning)
+
 
 Analyzed retail sales and profit data using Excel.
 
